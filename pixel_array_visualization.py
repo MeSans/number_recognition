@@ -1,9 +1,10 @@
-from PIL import Image
-import numpy as np
 ####
 import matplotlib.pyplot as plt
+import numpy as np
+from PIL import Image
+
 ###
-i = Image.open('images/dotndot.png')
+i = Image.open('images/dot.png')
 
 iar = np.asarray(i)
 
